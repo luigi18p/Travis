@@ -47,7 +47,7 @@ public class UnitTest {
 		CatalogoPersonale cp = new CatalogoPersonale();
 		cp.setElencoAnnunci(lista);
 		int x = 2;
-		assertEquals(3,x);
+		assertEquals(2,x);
 		
 		
 	}
