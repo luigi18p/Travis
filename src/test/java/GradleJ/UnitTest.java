@@ -36,7 +36,7 @@ public class UnitTest {
 	
 	@Test
 	public void test_SetElencoAnn() {
-		Annuncio ann0 = new Annuncio (0, "gioa", null, 0, null);
+		Annunciaao ann0 = new Annuncio (0, "gioa", null, 0, null);
 		Annuncio ann1 = new Annuncio (1, "lui", null, 0, null);
 		Annuncio ann2 = new Annuncio (2, "guest", null, 0, null);
 		List<Annuncio> lista = new ArrayList<Annuncio>();
