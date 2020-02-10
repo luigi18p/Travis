@@ -65,7 +65,7 @@ public class UnitTest {
 		
 		int z = 0;
 		assertEquals(0,z);
-		System.out.println("ammó ");
+		System.out.println("ammoo ");
 		
 			
 	}
