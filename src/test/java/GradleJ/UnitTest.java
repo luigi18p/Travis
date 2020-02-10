@@ -36,7 +36,7 @@ public class UnitTest {
 	
 	@Test
 	public void test_SetElencoAnn() {
-		Annunciaao ann0 = new Annuncio (0, "gioa", null, 0, null);
+		Annuncio ann0 = new Annuncio (0, "gioa", null, 0, null);
 		Annuncio ann1 = new Annuncio (1, "lui", null, 0, null);
 		Annuncio ann2 = new Annuncio (2, "guest", null, 0, null);
 		List<Annuncio> lista = new ArrayList<Annuncio>();
@@ -47,7 +47,7 @@ public class UnitTest {
 		CatalogoPersonale cp = new CatalogoPersonale();
 		cp.setElencoAnnunci(lista);
 		int x = 2;
-		assertEquals(2,x);
+		assertEquals(3,x);
 		
 		
 	}
