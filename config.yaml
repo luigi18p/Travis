@@ -1,0 +1,5 @@
+- repo: https://github.com/luigi18p/Travis
+  rev: v1.17.0
+  hooks:
+    - id: yamllint
+      args: [-c=/path/to/.yamllint]
