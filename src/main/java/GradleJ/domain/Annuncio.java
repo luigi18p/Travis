@@ -56,8 +56,9 @@ public class Annuncio implements Serializable{
 		this.tipoTrasporto = tipoTrasporto;
 	}
 	
-	public static void deleteAnnuncio(int id) {
+	public static boolean deleteAnnuncio(int id) {
 		AnnuncioDAO annuncioDAO = new AnnuncioDAO();
-		annuncioDAO.deleteAnnuncio(id);
+		boolean check = annuncioDAO.deleteAnnuncio(id);
+		return check;
 	}
 }
